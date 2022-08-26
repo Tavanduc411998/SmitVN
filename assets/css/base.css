@@ -1,0 +1,44 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+  }
+  
+  * {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .grid__full-width {
+    width: 100%;
+  }
+  
+  .grid__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
