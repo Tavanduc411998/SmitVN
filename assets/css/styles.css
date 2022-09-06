@@ -1,3 +1,152 @@
+/* Common */
+.fz16 {
+    font-size: 1.6rem;
+}
+
+.fz20 {
+    font-size: 2rem;
+}
+
+.fz30 {
+    font-size: 3rem;
+}
+
+.right-body__title {
+    color: #1ca64d;
+    margin: 20px 0 10px 0;
+}
+
+/* End Common */
+
+body,
+html {
+    height: 100%;
+}
+
 .main-container {
     display: flex;
+    height: 100%;
+    padding: 10px;
+
+}
+
+.left-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 12.5%;
+    font-size: 2rem;
+    background-color: #f5f7ff;
+    height: 100%;
+    /* position: sticky;
+    left: 0;
+    top: 0;
+    bottom: 0; */
+}
+
+.sign-up {
+    font-size: 2rem;
+}
+
+.right-body {
+    width: 87%;
+    margin-left: 10px;
+}
+
+/* Top Banner */
+.top-banner {
+    background: url("/assets/img/header-bg.2820cfe9.png") center / cover no-repeat;
+    padding: 45px 50px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.banner-flex {
+    display: flex;
+}
+
+.banner-img {
+    background: #fff;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 19%), inset 0 -4px 8px rgb(0 0 0 / 25%);
+    border-radius: 14px;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.banner-title h2,
+.banner-title h1 {
+    text-shadow: rgb(0 0 0 / 25%) 0px 3px 5px;
+}
+
+.banner-content {
+    font-size: 1.6rem;
+    opacity: 0.9;
+    margin-top: 15px;
+    font-weight: 600;
+
+}
+
+/* Popular Application */
+.popular-application {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pop-app__box {
+    background-image: url("/assets/img/pop-app1.png");
+    box-shadow: 0 13px 45px rgb(36 194 138 / 19%);
+    width: 25%;
+    border-radius: 10px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+    background-size: cover;
+    transition: box-shadow .2s;
+    margin-top: 15px;
+}
+
+.pop-app__content {
+    display: flex;
+    align-items: center;
+}
+
+.pop-app__text {
+    margin-left: 10px;
+}
+
+.content__title {
+    color: #fff;
+    font-weight: 600;
+}
+
+.content__sub-title {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.content__rank {
+
+}
+
+.icon-star {
+    color: rgb(253, 238, 101);
+}
+
+.pop-app__button {
+    display: inline;
+    color: rgb(28, 166, 77);
+    margin: 15px 0 0 45px;
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 7%);
+    border-radius: 14px;
+    padding: 0 10px;
+    width: 80px;
 }
