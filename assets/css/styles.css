@@ -16,6 +16,10 @@
     margin: 20px 0 10px 0;
 }
 
+.mt16 {
+    margin-top: 16px;
+}
+
 /* End Common */
 
 body,
@@ -27,8 +31,11 @@ html {
     display: flex;
     height: 100%;
     padding: 10px;
+    position: relative;
 
 }
+
+/* left body */
 
 .left-body {
     display: flex;
@@ -37,17 +44,31 @@ html {
     width: 12.5%;
     font-size: 2rem;
     background-color: #f5f7ff;
-    height: 100%;
-    /* position: sticky;
+    position: -webkit-sticky;
+    position: sticky;
     left: 0;
-    top: 0;
-    bottom: 0; */
+    top: 16px;
+}
+
+
+.left-body__top-box {
+
+}
+
+.left-body__img {
+    width: 90px;
+}
+
+.left-body__top-box p {
+    opacity: 0.4;
+    margin-left: 22px;
 }
 
 .sign-up {
     font-size: 2rem;
 }
 
+/* right body */
 .right-body {
     width: 87%;
     margin-left: 10px;
@@ -100,7 +121,7 @@ html {
 .pop-app__box {
     background-image: url("/assets/img/pop-app1.png");
     box-shadow: 0 13px 45px rgb(36 194 138 / 19%);
-    width: 25%;
+    width: 24%;
     border-radius: 10px;
     height: 175px;
     display: flex;
@@ -117,6 +138,17 @@ html {
     align-items: center;
 }
 
+.pop-app__img-box {
+    width: 76px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 19%), inset 0 -1px 4px rgb(0 0 0 / 25%);
+}
+
 .pop-app__text {
     margin-left: 10px;
 }
@@ -131,9 +163,7 @@ html {
     opacity: 0.7;
 }
 
-.content__rank {
-
-}
+.content__rank {}
 
 .icon-star {
     color: rgb(253, 238, 101);
@@ -149,4 +179,141 @@ html {
     border-radius: 14px;
     padding: 0 10px;
     width: 80px;
+    font-weight: 700;
+}
+
+/* Other extension */
+.other-extension {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.other-extension__box {
+    background: #f5f7ff;
+    border-radius: 15px;
+    width: calc(50% - 10px);
+    padding: 0 30px;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px rgb(0 0 0 / 8%);
+}
+
+.other-extension__box img {
+    width: fit-content;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.other-extension__img {
+    height: 72px;
+    width: 72px;
+    background: #fff;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 19%), inset 0 -1px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.other-extension__title {
+    margin-top: 20px;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+.other-extension__sub-title {
+    opacity: 0.6;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.other-extension__button {
+    margin-top: 15px;
+    height: 44px;
+    background: #1ca64d;
+    padding: 0 20px;
+    box-shadow: 0 12px 29px rgb(0 0 0 / 25%);
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Our Community */
+.our-community {
+    box-shadow: 1px 1px rgb(0 0 0 / 8%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f5f7ff;
+    padding: 20px 30px;
+    border-radius: 7px;
+}
+
+.our-com__content {
+    display: flex;
+    align-items: center;
+}
+
+.our-com__text {
+    margin-left: 15px;
+}
+
+.our-com__title {
+    color: #212529;
+    font-weight: 600;
+    margin: 0;
+}
+
+.our-com__sub-title {
+    color: #212529;
+    margin: 0;
+}
+
+.our-com__btn {
+    margin-top: 15px;
+    height: 44px;
+    background: #1ca64d;
+    padding: 0 20px;
+    box-shadow: 0 12px 29px rgb(0 0 0 / 25%);
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.fb-logo {
+    width: 50px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.footer-logo {
+    transform: translateX(-20px);
+    width: 80px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.our-com__text {
+    gap: 20px;
+    align-items: center;
+}
+
+.our-com__text-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.our-com__brand {
+    gap: 15px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
 }
