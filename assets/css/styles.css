@@ -126,6 +126,7 @@ html {
 
 .banner-flex {
     display: flex;
+    justify-content: space-between;
 }
 
 .banner-img {
@@ -224,6 +225,10 @@ html {
     font-weight: 700;
 }
 
+.pop-app__button:hover {
+    opacity: 0.8;
+}
+
 /* Other extension */
 .other-extension {
     display: flex;
@@ -285,6 +290,10 @@ html {
     border: none;
     color: #fff;
     font-weight: 700;
+}
+
+.other-extension__button {
+    opacity: 0.8;
 }
 
 /* Our Community */
@@ -359,3 +368,4 @@ html {
     display: flex;
     align-items: center;
 }
+
