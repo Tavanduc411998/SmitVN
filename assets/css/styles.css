@@ -20,6 +20,10 @@
     margin-top: 16px;
 }
 
+.text-modify {
+    text-decoration: none;
+}
+
 /* End Common */
 
 body,
